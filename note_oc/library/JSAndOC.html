@@ -9,6 +9,12 @@
 		margin: 0;
 		padding: 0;
 	}
+	html {
+		height: 100%;
+	}
+	body{
+		height: 100%;
+	}
 	.bg {
 		width: 100%;
 		height: 100%;
@@ -17,26 +23,55 @@
 		background-size: 100% 100%;
 	}
 		button {
-			width: 200px;
-			height: 400px;
+			width: 100px;
+			height:40px;
 			color: red;
-			font-size: 27px
+			font-size: 12px
 		}
 	</style>
 </head>
 
 <body>
 	<div class="bg">
-		<button onclick =onClikButton()>点点</button>
+		<button onclick =ale()>alert</button>
+		<button onclick =firm()>firm</button>
+		<button onclick =prom()>prom</button>
+		
 	</div>
 
 	<script type="text/javascript">
 		function onClikButton () {
-			// body...
-			alert("sssssss");
+			// body...;
 			 var list = [1.2, 2, 3, "ss"];
-			window.webkit.messageHandlers.OOCC.postMessage(list);
+			 var list2 = {
+			 	key1 : "sss",
+			 	key2 : 2,
+			 	key3 : list
+			 }
+			window.webkit.messageHandlers.OOCC.postMessage(list2);
+			return "ssss";
 		}
+		
+		function ale (){
+			alert("alert")
+		}
+		//选择框
+		function firm() {
+			if(confirm("选择框")) {
+				alert("yes")
+			} else {
+				alert("no")
+			}
+		}
+		//输入框
+		function prom() {
+			var result = prompt("这是一个输入框","请输入一个信息");
+			if (result) {
+				alert("输入的是："+result);
+			}
+		}
+		
+		
 	</script>
 </body>
 </html>
