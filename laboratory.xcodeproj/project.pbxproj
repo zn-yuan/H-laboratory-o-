@@ -22,6 +22,21 @@
 		954E4AAA1C3BB266002E2150 /* note_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954E4AA91C3BB266002E2150 /* note_ocUITests.m */; };
 		956B4D771C58C84C008726FB /* FEPercentDrivenInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = 956B4D761C58C84C008726FB /* FEPercentDrivenInteractive.m */; };
 		956B4D7A1C58C872008726FB /* FE_PresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 956B4D791C58C872008726FB /* FE_PresentTransition.m */; };
+		9586FA131C76AD5F00E49BA1 /* ChildrootViewConntroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA0B1C76AD5F00E49BA1 /* ChildrootViewConntroller.m */; };
+		9586FA141C76AD5F00E49BA1 /* childVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA0D1C76AD5F00E49BA1 /* childVC1.m */; };
+		9586FA151C76AD5F00E49BA1 /* childVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA0F1C76AD5F00E49BA1 /* childVC2.m */; };
+		9586FA161C76AD5F00E49BA1 /* childVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA111C76AD5F00E49BA1 /* childVC3.m */; };
+		9586FA291C76AD7900E49BA1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA181C76AD7900E49BA1 /* MainViewController.m */; };
+		9586FA2A1C76AD7900E49BA1 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA1A1C76AD7900E49BA1 /* ViewController1.m */; };
+		9586FA2B1C76AD7900E49BA1 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA1C1C76AD7900E49BA1 /* ViewController2.m */; };
+		9586FA2C1C76AD7900E49BA1 /* slideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA1E1C76AD7900E49BA1 /* slideViewController.m */; };
+		9586FA2D1C76AD7900E49BA1 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA201C76AD7900E49BA1 /* LeftViewController.m */; };
+		9586FA2E1C76AD7900E49BA1 /* SwiftSideSlipLikeQQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA221C76AD7900E49BA1 /* SwiftSideSlipLikeQQ.swift */; };
+		9586FA2F1C76AD7900E49BA1 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA231C76AD7900E49BA1 /* MainTableViewController.swift */; };
+		9586FA301C76AD7900E49BA1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA241C76AD7900E49BA1 /* HomeViewController.swift */; };
+		9586FA311C76AD7900E49BA1 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA251C76AD7900E49BA1 /* LeftViewController.swift */; };
+		9586FA321C76AD7900E49BA1 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA261C76AD7900E49BA1 /* OtherViewController.swift */; };
+		9586FA351C76AD9D00E49BA1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA331C76AD9D00E49BA1 /* Common.swift */; };
 		95A38D581C5F5D8900F40111 /* movePushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A38D571C5F5D8900F40111 /* movePushedViewController.m */; };
 		95A38D5B1C5F637F00F40111 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A38D5A1C5F637F00F40111 /* CollectionViewCell.m */; };
 		95A38D611C6095DC00F40111 /* CircleSpreadTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A38D601C6095DC00F40111 /* CircleSpreadTransition.m */; };
@@ -89,6 +104,31 @@
 		956B4D761C58C84C008726FB /* FEPercentDrivenInteractive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEPercentDrivenInteractive.m; sourceTree = "<group>"; };
 		956B4D781C58C872008726FB /* FE_PresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FE_PresentTransition.h; sourceTree = "<group>"; };
 		956B4D791C58C872008726FB /* FE_PresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FE_PresentTransition.m; sourceTree = "<group>"; };
+		9586FA0A1C76AD5F00E49BA1 /* ChildrootViewConntroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildrootViewConntroller.h; sourceTree = "<group>"; };
+		9586FA0B1C76AD5F00E49BA1 /* ChildrootViewConntroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildrootViewConntroller.m; sourceTree = "<group>"; };
+		9586FA0C1C76AD5F00E49BA1 /* childVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = childVC1.h; sourceTree = "<group>"; };
+		9586FA0D1C76AD5F00E49BA1 /* childVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = childVC1.m; sourceTree = "<group>"; };
+		9586FA0E1C76AD5F00E49BA1 /* childVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = childVC2.h; sourceTree = "<group>"; };
+		9586FA0F1C76AD5F00E49BA1 /* childVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = childVC2.m; sourceTree = "<group>"; };
+		9586FA101C76AD5F00E49BA1 /* childVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = childVC3.h; sourceTree = "<group>"; };
+		9586FA111C76AD5F00E49BA1 /* childVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = childVC3.m; sourceTree = "<group>"; };
+		9586FA171C76AD7900E49BA1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9586FA181C76AD7900E49BA1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9586FA191C76AD7900E49BA1 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		9586FA1A1C76AD7900E49BA1 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		9586FA1B1C76AD7900E49BA1 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		9586FA1C1C76AD7900E49BA1 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		9586FA1D1C76AD7900E49BA1 /* slideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slideViewController.h; sourceTree = "<group>"; };
+		9586FA1E1C76AD7900E49BA1 /* slideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = slideViewController.m; sourceTree = "<group>"; };
+		9586FA1F1C76AD7900E49BA1 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		9586FA201C76AD7900E49BA1 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		9586FA221C76AD7900E49BA1 /* SwiftSideSlipLikeQQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSideSlipLikeQQ.swift; sourceTree = "<group>"; };
+		9586FA231C76AD7900E49BA1 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		9586FA241C76AD7900E49BA1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9586FA251C76AD7900E49BA1 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		9586FA261C76AD7900E49BA1 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		9586FA271C76AD7900E49BA1 /* laboratory-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "laboratory-Bridging-Header.h"; sourceTree = "<group>"; };
+		9586FA331C76AD9D00E49BA1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		95A38D561C5F5D8900F40111 /* movePushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movePushedViewController.h; sourceTree = "<group>"; };
 		95A38D571C5F5D8900F40111 /* movePushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movePushedViewController.m; sourceTree = "<group>"; };
 		95A38D591C5F637F00F40111 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
@@ -198,6 +238,8 @@
 		95270FC51C585ED700785D47 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				9586FA281C76AD7900E49BA1 /* slideView */,
+				9586FA121C76AD5F00E49BA1 /* childViewController */,
 				95A38D761C72B98500F40111 /* web */,
 				95A38D6C1C715E6000F40111 /* CoreAnimation */,
 				95A38D5E1C60958900F40111 /* CircleSpread */,
@@ -292,6 +334,63 @@
 			path = note_oc/pch;
 			sourceTree = "<group>";
 		};
+		9586FA121C76AD5F00E49BA1 /* childViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9586FA0A1C76AD5F00E49BA1 /* ChildrootViewConntroller.h */,
+				9586FA0B1C76AD5F00E49BA1 /* ChildrootViewConntroller.m */,
+				9586FA0C1C76AD5F00E49BA1 /* childVC1.h */,
+				9586FA0D1C76AD5F00E49BA1 /* childVC1.m */,
+				9586FA0E1C76AD5F00E49BA1 /* childVC2.h */,
+				9586FA0F1C76AD5F00E49BA1 /* childVC2.m */,
+				9586FA101C76AD5F00E49BA1 /* childVC3.h */,
+				9586FA111C76AD5F00E49BA1 /* childVC3.m */,
+			);
+			name = childViewController;
+			path = ../../../Desktop/Hlaboratory_iOS/note_oc;
+			sourceTree = "<group>";
+		};
+		9586FA211C76AD7900E49BA1 /* oc */ = {
+			isa = PBXGroup;
+			children = (
+				9586FA171C76AD7900E49BA1 /* MainViewController.h */,
+				9586FA181C76AD7900E49BA1 /* MainViewController.m */,
+				9586FA191C76AD7900E49BA1 /* ViewController1.h */,
+				9586FA1A1C76AD7900E49BA1 /* ViewController1.m */,
+				9586FA1B1C76AD7900E49BA1 /* ViewController2.h */,
+				9586FA1C1C76AD7900E49BA1 /* ViewController2.m */,
+				9586FA1D1C76AD7900E49BA1 /* slideViewController.h */,
+				9586FA1E1C76AD7900E49BA1 /* slideViewController.m */,
+				9586FA1F1C76AD7900E49BA1 /* LeftViewController.h */,
+				9586FA201C76AD7900E49BA1 /* LeftViewController.m */,
+			);
+			name = oc;
+			sourceTree = "<group>";
+		};
+		9586FA281C76AD7900E49BA1 /* slideView */ = {
+			isa = PBXGroup;
+			children = (
+				9586FA211C76AD7900E49BA1 /* oc */,
+				9586FA221C76AD7900E49BA1 /* SwiftSideSlipLikeQQ.swift */,
+				9586FA231C76AD7900E49BA1 /* MainTableViewController.swift */,
+				9586FA241C76AD7900E49BA1 /* HomeViewController.swift */,
+				9586FA251C76AD7900E49BA1 /* LeftViewController.swift */,
+				9586FA261C76AD7900E49BA1 /* OtherViewController.swift */,
+				9586FA271C76AD7900E49BA1 /* laboratory-Bridging-Header.h */,
+			);
+			name = slideView;
+			path = ../../../Desktop/Hlaboratory_iOS/note_oc;
+			sourceTree = "<group>";
+		};
+		9586FA341C76AD9D00E49BA1 /* swiftSupporting */ = {
+			isa = PBXGroup;
+			children = (
+				9586FA331C76AD9D00E49BA1 /* Common.swift */,
+			);
+			name = swiftSupporting;
+			path = ../../../../Desktop/Hlaboratory_iOS/note_oc/library;
+			sourceTree = "<group>";
+		};
 		95A38D5E1C60958900F40111 /* CircleSpread */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +456,7 @@
 		95A45BA41C576E9C00300126 /* library */ = {
 			isa = PBXGroup;
 			children = (
+				9586FA341C76AD9D00E49BA1 /* swiftSupporting */,
 				95A38D7A1C72BC1100F40111 /* www */,
 				95270FC41C58561F00785D47 /* transitioning */,
 			);
@@ -499,22 +599,37 @@
 				956B4D771C58C84C008726FB /* FEPercentDrivenInteractive.m in Sources */,
 				954E4A8C1C3BB266002E2150 /* ViewController.m in Sources */,
 				950A3DA01C5F4C69009C40AA /* FENavTransition.m in Sources */,
+				9586FA291C76AD7900E49BA1 /* MainViewController.m in Sources */,
+				9586FA2F1C76AD7900E49BA1 /* MainTableViewController.swift in Sources */,
 				95A38D651C609D8F00F40111 /* CircleSpreadVC1.m in Sources */,
 				954E4A891C3BB266002E2150 /* AppDelegate.m in Sources */,
 				95270FC81C585F1400785D47 /* FETransitioningVC.m in Sources */,
+				9586FA2E1C76AD7900E49BA1 /* SwiftSideSlipLikeQQ.swift in Sources */,
 				950A3DA51C5F59CF009C40AA /* moveViewController.m in Sources */,
+				9586FA131C76AD5F00E49BA1 /* ChildrootViewConntroller.m in Sources */,
 				95A38D5B1C5F637F00F40111 /* CollectionViewCell.m in Sources */,
+				9586FA2D1C76AD7900E49BA1 /* LeftViewController.m in Sources */,
+				9586FA351C76AD9D00E49BA1 /* Common.swift in Sources */,
 				95A38D681C609DA400F40111 /* CircleSpreadVC2.m in Sources */,
 				95270FCB1C585F4D00785D47 /* FETransitioningVC2.m in Sources */,
 				95A38D721C7176BA00F40111 /* closeLayerVC.m in Sources */,
 				954E4A861C3BB266002E2150 /* main.m in Sources */,
+				9586FA2B1C76AD7900E49BA1 /* ViewController2.m in Sources */,
+				9586FA141C76AD5F00E49BA1 /* childVC1.m in Sources */,
 				95A38D6F1C715F4400F40111 /* CoreAnimationVC.m in Sources */,
+				9586FA2A1C76AD7900E49BA1 /* ViewController1.m in Sources */,
 				95A38D611C6095DC00F40111 /* CircleSpreadTransition.m in Sources */,
 				95A38D6B1C60A3C600F40111 /* MaskView.m in Sources */,
 				95270FC31C57715600785D47 /* UIView+FE_Frame.m in Sources */,
 				95A38D791C72B9AF00F40111 /* WebJsVC.m in Sources */,
 				956B4D7A1C58C872008726FB /* FE_PresentTransition.m in Sources */,
 				95A38D581C5F5D8900F40111 /* movePushedViewController.m in Sources */,
+				9586FA311C76AD7900E49BA1 /* LeftViewController.swift in Sources */,
+				9586FA301C76AD7900E49BA1 /* HomeViewController.swift in Sources */,
+				9586FA2C1C76AD7900E49BA1 /* slideViewController.m in Sources */,
+				9586FA161C76AD5F00E49BA1 /* childVC3.m in Sources */,
+				9586FA321C76AD7900E49BA1 /* OtherViewController.swift in Sources */,
+				9586FA151C76AD5F00E49BA1 /* childVC2.m in Sources */,
 				95A38D751C71B08D00F40111 /* FivePointerStarVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
