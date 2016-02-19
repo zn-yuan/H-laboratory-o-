@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "954E4A801C3BB266002E2150"
-               BuildableName = "laboratory.app"
+               BuildableName = "SwiftBridging.app"
                BlueprintName = "laboratory"
                ReferencedContainer = "container:laboratory.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "954E4A801C3BB266002E2150"
-            BuildableName = "laboratory.app"
+            BuildableName = "SwiftBridging.app"
             BlueprintName = "laboratory"
             ReferencedContainer = "container:laboratory.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "954E4A801C3BB266002E2150"
-            BuildableName = "laboratory.app"
+            BuildableName = "SwiftBridging.app"
             BlueprintName = "laboratory"
             ReferencedContainer = "container:laboratory.xcodeproj">
          </BuildableReference>
@@ -105,7 +105,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "954E4A801C3BB266002E2150"
-            BuildableName = "laboratory.app"
+            BuildableName = "SwiftBridging.app"
             BlueprintName = "laboratory"
             ReferencedContainer = "container:laboratory.xcodeproj">
          </BuildableReference>

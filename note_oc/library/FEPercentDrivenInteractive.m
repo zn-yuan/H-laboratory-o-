@@ -57,7 +57,6 @@
             persent = transitionY / panGesture.view.width;
         }
             break;
-            
         case FEInteractiveTransitionGestureDirectionUp: {
             CGFloat transitionY = -[panGesture translationInView:panGesture.view].y;
             persent = transitionY / panGesture.view.width;

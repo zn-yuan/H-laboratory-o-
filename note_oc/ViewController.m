@@ -12,6 +12,7 @@
 #import "CircleSpreadVC1.h"
 #import "CoreAnimationVC.h"
 #import "WebJsVC.h"
+#import "slideViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -39,8 +40,8 @@
     
     UIDevice *dev = [UIDevice currentDevice];
     
-    _data = @[@"模态",@"navMove",@"circleSpread",@"shakeAnimation",@"WebJsVC"];
-    _subData = @[@"",@"moveViewController",@"CircleSpreadVC1",@"CoreAnimationVC",@"WebJsVC"];
+    _data = @[@"模态",@"navMove",@"circleSpread",@"shakeAnimation",@"WebJsVC",@"slideViewController"];
+    _subData = @[@"",@"moveViewController",@"CircleSpreadVC1",@"CoreAnimationVC",@"WebJsVC",@"slideViewController"];
     NSLog(@"%@",dev.identifierForVendor);
     DLog(@"%@",dev.systemVersion);
     DLog(@"%@",dev.localizedModel);
