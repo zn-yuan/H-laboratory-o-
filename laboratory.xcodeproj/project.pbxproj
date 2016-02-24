@@ -33,7 +33,10 @@
 		9586FA521C76E44800E49BA1 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA4D1C76E44800E49BA1 /* ViewController2.m */; };
 		9586FA541C76E48E00E49BA1 /* rightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA531C76E48E00E49BA1 /* rightViewController.swift */; };
 		9586FA561C76E49F00E49BA1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA551C76E49F00E49BA1 /* Common.swift */; };
-		9586FA591C76F4CA00E49BA1 /* ShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA581C76F4CA00E49BA1 /* ShapeLayer.swift */; };
+		9586FA591C76F4CA00E49BA1 /* ShapeLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA581C76F4CA00E49BA1 /* ShapeLayerViewController.swift */; };
+		9586FA5C1C7716AB00E49BA1 /* eyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA5B1C7716AB00E49BA1 /* eyeViewController.m */; };
+		9586FA5F1C7AAAB200E49BA1 /* EyeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA5E1C7AAAB200E49BA1 /* EyeView.m */; };
+		9586FA631C7D460600E49BA1 /* CocoTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA621C7D460600E49BA1 /* CocoTestVC.m */; };
 		95A38D581C5F5D8900F40111 /* movePushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A38D571C5F5D8900F40111 /* movePushedViewController.m */; };
 		95A38D5B1C5F637F00F40111 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A38D5A1C5F637F00F40111 /* CollectionViewCell.m */; };
 		95A38D611C6095DC00F40111 /* CircleSpreadTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A38D601C6095DC00F40111 /* CircleSpreadTransition.m */; };
@@ -122,7 +125,13 @@
 		9586FA4D1C76E44800E49BA1 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = note_oc/ViewController2.m; sourceTree = SOURCE_ROOT; };
 		9586FA531C76E48E00E49BA1 /* rightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = rightViewController.swift; path = note_oc/rightViewController.swift; sourceTree = SOURCE_ROOT; };
 		9586FA551C76E49F00E49BA1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = note_oc/library/Common.swift; sourceTree = SOURCE_ROOT; };
-		9586FA581C76F4CA00E49BA1 /* ShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeLayer.swift; sourceTree = "<group>"; };
+		9586FA581C76F4CA00E49BA1 /* ShapeLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeLayerViewController.swift; sourceTree = "<group>"; };
+		9586FA5A1C7716AB00E49BA1 /* eyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eyeViewController.h; sourceTree = "<group>"; };
+		9586FA5B1C7716AB00E49BA1 /* eyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eyeViewController.m; sourceTree = "<group>"; };
+		9586FA5D1C7AAAB100E49BA1 /* EyeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeView.h; sourceTree = "<group>"; };
+		9586FA5E1C7AAAB200E49BA1 /* EyeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EyeView.m; sourceTree = "<group>"; };
+		9586FA611C7D460600E49BA1 /* CocoTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoTestVC.h; sourceTree = "<group>"; };
+		9586FA621C7D460600E49BA1 /* CocoTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoTestVC.m; sourceTree = "<group>"; };
 		95A38D561C5F5D8900F40111 /* movePushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movePushedViewController.h; sourceTree = "<group>"; };
 		95A38D571C5F5D8900F40111 /* movePushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movePushedViewController.m; sourceTree = "<group>"; };
 		95A38D591C5F637F00F40111 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
@@ -232,6 +241,7 @@
 		95270FC51C585ED700785D47 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				9586FA601C7D45E700E49BA1 /* coco */,
 				9586FA571C76F47000E49BA1 /* CAShapeLayerAndUIBezierPath */,
 				9586FA281C76AD7900E49BA1 /* slideView */,
 				9586FA121C76AD5F00E49BA1 /* childViewController */,
@@ -385,9 +395,22 @@
 		9586FA571C76F47000E49BA1 /* CAShapeLayerAndUIBezierPath */ = {
 			isa = PBXGroup;
 			children = (
-				9586FA581C76F4CA00E49BA1 /* ShapeLayer.swift */,
+				9586FA581C76F4CA00E49BA1 /* ShapeLayerViewController.swift */,
+				9586FA5A1C7716AB00E49BA1 /* eyeViewController.h */,
+				9586FA5B1C7716AB00E49BA1 /* eyeViewController.m */,
+				9586FA5D1C7AAAB100E49BA1 /* EyeView.h */,
+				9586FA5E1C7AAAB200E49BA1 /* EyeView.m */,
 			);
 			name = CAShapeLayerAndUIBezierPath;
+			sourceTree = "<group>";
+		};
+		9586FA601C7D45E700E49BA1 /* coco */ = {
+			isa = PBXGroup;
+			children = (
+				9586FA611C7D460600E49BA1 /* CocoTestVC.h */,
+				9586FA621C7D460600E49BA1 /* CocoTestVC.m */,
+			);
+			name = coco;
 			sourceTree = "<group>";
 		};
 		95A38D5E1C60958900F40111 /* CircleSpread */ = {
@@ -609,9 +632,12 @@
 				9586FA4F1C76E44800E49BA1 /* MainViewController.m in Sources */,
 				95270FCB1C585F4D00785D47 /* FETransitioningVC2.m in Sources */,
 				95A38D721C7176BA00F40111 /* closeLayerVC.m in Sources */,
+				9586FA631C7D460600E49BA1 /* CocoTestVC.m in Sources */,
 				954E4A861C3BB266002E2150 /* main.m in Sources */,
 				9586FA561C76E49F00E49BA1 /* Common.swift in Sources */,
+				9586FA5F1C7AAAB200E49BA1 /* EyeView.m in Sources */,
 				9586FA141C76AD5F00E49BA1 /* childVC1.m in Sources */,
+				9586FA5C1C7716AB00E49BA1 /* eyeViewController.m in Sources */,
 				9586FA541C76E48E00E49BA1 /* rightViewController.swift in Sources */,
 				95A38D6F1C715F4400F40111 /* CoreAnimationVC.m in Sources */,
 				95A38D611C6095DC00F40111 /* CircleSpreadTransition.m in Sources */,
@@ -620,7 +646,7 @@
 				95A38D6B1C60A3C600F40111 /* MaskView.m in Sources */,
 				95270FC31C57715600785D47 /* UIView+FE_Frame.m in Sources */,
 				95A38D791C72B9AF00F40111 /* WebJsVC.m in Sources */,
-				9586FA591C76F4CA00E49BA1 /* ShapeLayer.swift in Sources */,
+				9586FA591C76F4CA00E49BA1 /* ShapeLayerViewController.swift in Sources */,
 				956B4D7A1C58C872008726FB /* FE_PresentTransition.m in Sources */,
 				9586FA501C76E44800E49BA1 /* slideViewController.m in Sources */,
 				95A38D581C5F5D8900F40111 /* movePushedViewController.m in Sources */,

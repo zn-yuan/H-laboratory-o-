@@ -1,13 +1,13 @@
 //
-//  ShapeLayer.swift
+//  eyeViewController.h
 //  laboratory
 //
 //  Created by hryan on 16/2/19.
 //  Copyright © 2016年 fe. All rights reserved.
 //
 
-import Cocoa
+#import <UIKit/UIKit.h>
 
-class ShapeLayer: UIViewController {
+@interface eyeViewController : UIViewController
 
-}
+@end

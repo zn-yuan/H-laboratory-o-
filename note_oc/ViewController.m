@@ -13,6 +13,8 @@
 #import "CoreAnimationVC.h"
 #import "WebJsVC.h"
 #import "slideViewController.h"
+#import "SwiftBridging-swift.h"
+#import "eyeViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -40,8 +42,8 @@
     
     UIDevice *dev = [UIDevice currentDevice];
     
-    _data = @[@"模态",@"navMove",@"circleSpread",@"shakeAnimation",@"WebJsVC",@"slideViewController"];
-    _subData = @[@"",@"moveViewController",@"CircleSpreadVC1",@"CoreAnimationVC",@"WebJsVC",@"slideViewController"];
+    _data = @[@"模态",@"navMove",@"circleSpread",@"shakeAnimation",@"WebJsVC",@"slideViewController", @"ShapeLayer",@"eyeViewController"];
+    _subData = @[@"",@"moveViewController",@"CircleSpreadVC1",@"CoreAnimationVC",@"WebJsVC",@"slideViewController",@"ShapeLayerViewController",@"eyeViewController"];
     NSLog(@"%@",dev.identifierForVendor);
     DLog(@"%@",dev.systemVersion);
     DLog(@"%@",dev.localizedModel);
@@ -62,6 +64,7 @@
         _tableView.delegate = self;
         _tableView.dataSource = self;
         [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+        _tableView.backgroundColor = [UIColor clearColor];
     }
     return _tableView;
     
@@ -90,29 +93,15 @@
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         nextVC = [storyboard instantiateViewControllerWithIdentifier:@"FETransitioningVC"];
     } else {
-        nextVC = [[NSClassFromString(_subData[indexPath.row]) alloc]init];
+        
+        if ([_subData[indexPath.row] isEqualToString:@"ShapeLayerViewController"]) {
+            nextVC = [[ShapeLayerViewController alloc] init];
+        } else {
+            nextVC = [[NSClassFromString(_subData[indexPath.row]) alloc]init];
+
+        }
     }
-    
-//    switch (indexPath.row) {
-//        case 0:
-//        {
-//            
-//            
-//        }
-//            break;
-//        case 1: {
-//            nextVC = [[moveViewController alloc]init];
-//        }
-//            break;
-//        case 2: {
-//            nextVC = [[CircleSpreadVC1 alloc]init];
-//        }
-//            break;
-//       
-//        default:
-//            break;
-//    }
-    
+
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:nextVC];
     [self presentViewController:nav animated:YES completion:^{
         
