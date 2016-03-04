@@ -35,6 +35,7 @@
 }
 
 -(void)viewDidLoad {
+    [super viewDidLoad];
     [_panIntrtactiveTransition addPanGestureForViewController:self];
 }
 

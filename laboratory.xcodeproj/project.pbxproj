@@ -22,10 +22,6 @@
 		954E4AAA1C3BB266002E2150 /* note_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954E4AA91C3BB266002E2150 /* note_ocUITests.m */; };
 		956B4D771C58C84C008726FB /* FEPercentDrivenInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = 956B4D761C58C84C008726FB /* FEPercentDrivenInteractive.m */; };
 		956B4D7A1C58C872008726FB /* FE_PresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 956B4D791C58C872008726FB /* FE_PresentTransition.m */; };
-		9586FA131C76AD5F00E49BA1 /* ChildrootViewConntroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA0B1C76AD5F00E49BA1 /* ChildrootViewConntroller.m */; };
-		9586FA141C76AD5F00E49BA1 /* childVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA0D1C76AD5F00E49BA1 /* childVC1.m */; };
-		9586FA151C76AD5F00E49BA1 /* childVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA0F1C76AD5F00E49BA1 /* childVC2.m */; };
-		9586FA161C76AD5F00E49BA1 /* childVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA111C76AD5F00E49BA1 /* childVC3.m */; };
 		9586FA4E1C76E44800E49BA1 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA451C76E44800E49BA1 /* LeftViewController.m */; };
 		9586FA4F1C76E44800E49BA1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA471C76E44800E49BA1 /* MainViewController.m */; };
 		9586FA501C76E44800E49BA1 /* slideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA491C76E44800E49BA1 /* slideViewController.m */; };
@@ -37,6 +33,14 @@
 		9586FA5C1C7716AB00E49BA1 /* eyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA5B1C7716AB00E49BA1 /* eyeViewController.m */; };
 		9586FA5F1C7AAAB200E49BA1 /* EyeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA5E1C7AAAB200E49BA1 /* EyeView.m */; };
 		9586FA631C7D460600E49BA1 /* CocoTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA621C7D460600E49BA1 /* CocoTestVC.m */; };
+		9586FA651C7D505300E49BA1 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9586FA641C7D505300E49BA1 /* test.txt */; };
+		9586FA681C80344100E49BA1 /* MyLayerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA671C80344100E49BA1 /* MyLayerDelegate.m */; };
+		9586FA721C8564FC00E49BA1 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA711C8564FC00E49BA1 /* LaunchViewController.m */; };
+		9586FA741C86E80F00E49BA1 /* webSource in Resources */ = {isa = PBXBuildFile; fileRef = 9586FA731C86E80F00E49BA1 /* webSource */; };
+		9586FA951C87DE3000E49BA1 /* ChildrootViewConntroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA8E1C87DE3000E49BA1 /* ChildrootViewConntroller.m */; };
+		9586FA961C87DE3000E49BA1 /* childVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA901C87DE3000E49BA1 /* childVC1.m */; };
+		9586FA971C87DE3000E49BA1 /* childVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA921C87DE3000E49BA1 /* childVC2.m */; };
+		9586FA981C87DE3000E49BA1 /* childVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA941C87DE3000E49BA1 /* childVC3.m */; };
 		95A38D581C5F5D8900F40111 /* movePushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A38D571C5F5D8900F40111 /* movePushedViewController.m */; };
 		95A38D5B1C5F637F00F40111 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A38D5A1C5F637F00F40111 /* CollectionViewCell.m */; };
 		95A38D611C6095DC00F40111 /* CircleSpreadTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A38D601C6095DC00F40111 /* CircleSpreadTransition.m */; };
@@ -104,14 +108,6 @@
 		956B4D761C58C84C008726FB /* FEPercentDrivenInteractive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEPercentDrivenInteractive.m; sourceTree = "<group>"; };
 		956B4D781C58C872008726FB /* FE_PresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FE_PresentTransition.h; sourceTree = "<group>"; };
 		956B4D791C58C872008726FB /* FE_PresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FE_PresentTransition.m; sourceTree = "<group>"; };
-		9586FA0A1C76AD5F00E49BA1 /* ChildrootViewConntroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildrootViewConntroller.h; sourceTree = "<group>"; };
-		9586FA0B1C76AD5F00E49BA1 /* ChildrootViewConntroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildrootViewConntroller.m; sourceTree = "<group>"; };
-		9586FA0C1C76AD5F00E49BA1 /* childVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = childVC1.h; sourceTree = "<group>"; };
-		9586FA0D1C76AD5F00E49BA1 /* childVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = childVC1.m; sourceTree = "<group>"; };
-		9586FA0E1C76AD5F00E49BA1 /* childVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = childVC2.h; sourceTree = "<group>"; };
-		9586FA0F1C76AD5F00E49BA1 /* childVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = childVC2.m; sourceTree = "<group>"; };
-		9586FA101C76AD5F00E49BA1 /* childVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = childVC3.h; sourceTree = "<group>"; };
-		9586FA111C76AD5F00E49BA1 /* childVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = childVC3.m; sourceTree = "<group>"; };
 		9586FA411C76B5C200E49BA1 /* Swift_bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift_bridging.h; sourceTree = "<group>"; };
 		9586FA441C76E44800E49BA1 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = note_oc/LeftViewController.h; sourceTree = SOURCE_ROOT; };
 		9586FA451C76E44800E49BA1 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = note_oc/LeftViewController.m; sourceTree = SOURCE_ROOT; };
@@ -132,6 +128,20 @@
 		9586FA5E1C7AAAB200E49BA1 /* EyeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EyeView.m; sourceTree = "<group>"; };
 		9586FA611C7D460600E49BA1 /* CocoTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoTestVC.h; sourceTree = "<group>"; };
 		9586FA621C7D460600E49BA1 /* CocoTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoTestVC.m; sourceTree = "<group>"; };
+		9586FA641C7D505300E49BA1 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		9586FA661C80344100E49BA1 /* MyLayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayerDelegate.h; sourceTree = "<group>"; };
+		9586FA671C80344100E49BA1 /* MyLayerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayerDelegate.m; sourceTree = "<group>"; };
+		9586FA701C8564FC00E49BA1 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		9586FA711C8564FC00E49BA1 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		9586FA731C86E80F00E49BA1 /* webSource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = webSource; sourceTree = "<group>"; };
+		9586FA8D1C87DE3000E49BA1 /* ChildrootViewConntroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildrootViewConntroller.h; path = note_oc/ChildrootViewConntroller.h; sourceTree = SOURCE_ROOT; };
+		9586FA8E1C87DE3000E49BA1 /* ChildrootViewConntroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildrootViewConntroller.m; path = note_oc/ChildrootViewConntroller.m; sourceTree = SOURCE_ROOT; };
+		9586FA8F1C87DE3000E49BA1 /* childVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = childVC1.h; path = note_oc/childVC1.h; sourceTree = SOURCE_ROOT; };
+		9586FA901C87DE3000E49BA1 /* childVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = childVC1.m; path = note_oc/childVC1.m; sourceTree = SOURCE_ROOT; };
+		9586FA911C87DE3000E49BA1 /* childVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = childVC2.h; path = note_oc/childVC2.h; sourceTree = SOURCE_ROOT; };
+		9586FA921C87DE3000E49BA1 /* childVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = childVC2.m; path = note_oc/childVC2.m; sourceTree = SOURCE_ROOT; };
+		9586FA931C87DE3000E49BA1 /* childVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = childVC3.h; path = note_oc/childVC3.h; sourceTree = SOURCE_ROOT; };
+		9586FA941C87DE3000E49BA1 /* childVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = childVC3.m; path = note_oc/childVC3.m; sourceTree = SOURCE_ROOT; };
 		95A38D561C5F5D8900F40111 /* movePushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movePushedViewController.h; sourceTree = "<group>"; };
 		95A38D571C5F5D8900F40111 /* movePushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movePushedViewController.m; sourceTree = "<group>"; };
 		95A38D591C5F637F00F40111 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
@@ -278,6 +288,7 @@
 		954E4A831C3BB266002E2150 /* note_oc */ = {
 			isa = PBXGroup;
 			children = (
+				9586FA731C86E80F00E49BA1 /* webSource */,
 				95270FC51C585ED700785D47 /* views */,
 				95A45BA41C576E9C00300126 /* library */,
 				954E4AF31C3BB3B9002E2150 /* Macro */,
@@ -285,6 +296,8 @@
 				954E4A881C3BB266002E2150 /* AppDelegate.m */,
 				954E4A8A1C3BB266002E2150 /* ViewController.h */,
 				954E4A8B1C3BB266002E2150 /* ViewController.m */,
+				9586FA701C8564FC00E49BA1 /* LaunchViewController.h */,
+				9586FA711C8564FC00E49BA1 /* LaunchViewController.m */,
 				954E4A8D1C3BB266002E2150 /* Main.storyboard */,
 				954E4A901C3BB266002E2150 /* Assets.xcassets */,
 				954E4A921C3BB266002E2150 /* LaunchScreen.storyboard */,
@@ -343,14 +356,14 @@
 		9586FA121C76AD5F00E49BA1 /* childViewController */ = {
 			isa = PBXGroup;
 			children = (
-				9586FA0A1C76AD5F00E49BA1 /* ChildrootViewConntroller.h */,
-				9586FA0B1C76AD5F00E49BA1 /* ChildrootViewConntroller.m */,
-				9586FA0C1C76AD5F00E49BA1 /* childVC1.h */,
-				9586FA0D1C76AD5F00E49BA1 /* childVC1.m */,
-				9586FA0E1C76AD5F00E49BA1 /* childVC2.h */,
-				9586FA0F1C76AD5F00E49BA1 /* childVC2.m */,
-				9586FA101C76AD5F00E49BA1 /* childVC3.h */,
-				9586FA111C76AD5F00E49BA1 /* childVC3.m */,
+				9586FA8D1C87DE3000E49BA1 /* ChildrootViewConntroller.h */,
+				9586FA8E1C87DE3000E49BA1 /* ChildrootViewConntroller.m */,
+				9586FA8F1C87DE3000E49BA1 /* childVC1.h */,
+				9586FA901C87DE3000E49BA1 /* childVC1.m */,
+				9586FA911C87DE3000E49BA1 /* childVC2.h */,
+				9586FA921C87DE3000E49BA1 /* childVC2.m */,
+				9586FA931C87DE3000E49BA1 /* childVC3.h */,
+				9586FA941C87DE3000E49BA1 /* childVC3.m */,
 			);
 			name = childViewController;
 			path = ../../../Desktop/Hlaboratory_iOS/note_oc;
@@ -409,6 +422,7 @@
 			children = (
 				9586FA611C7D460600E49BA1 /* CocoTestVC.h */,
 				9586FA621C7D460600E49BA1 /* CocoTestVC.m */,
+				9586FA641C7D505300E49BA1 /* test.txt */,
 			);
 			name = coco;
 			sourceTree = "<group>";
@@ -444,6 +458,8 @@
 				95A38D711C7176BA00F40111 /* closeLayerVC.m */,
 				95A38D731C71B08D00F40111 /* FivePointerStarVC.h */,
 				95A38D741C71B08D00F40111 /* FivePointerStarVC.m */,
+				9586FA661C80344100E49BA1 /* MyLayerDelegate.h */,
+				9586FA671C80344100E49BA1 /* MyLayerDelegate.m */,
 			);
 			name = CoreAnimation;
 			sourceTree = "<group>";
@@ -593,7 +609,9 @@
 				95A38D8A1C740D3100F40111 /* webSource in Resources */,
 				954E4A941C3BB266002E2150 /* LaunchScreen.storyboard in Resources */,
 				954E4A911C3BB266002E2150 /* Assets.xcassets in Resources */,
+				9586FA651C7D505300E49BA1 /* test.txt in Resources */,
 				954E4A8F1C3BB266002E2150 /* Main.storyboard in Resources */,
+				9586FA741C86E80F00E49BA1 /* webSource in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,11 +640,13 @@
 				954E4A8C1C3BB266002E2150 /* ViewController.m in Sources */,
 				950A3DA01C5F4C69009C40AA /* FENavTransition.m in Sources */,
 				95A38D651C609D8F00F40111 /* CircleSpreadVC1.m in Sources */,
+				9586FA971C87DE3000E49BA1 /* childVC2.m in Sources */,
+				9586FA951C87DE3000E49BA1 /* ChildrootViewConntroller.m in Sources */,
 				954E4A891C3BB266002E2150 /* AppDelegate.m in Sources */,
+				9586FA981C87DE3000E49BA1 /* childVC3.m in Sources */,
 				9586FA521C76E44800E49BA1 /* ViewController2.m in Sources */,
 				95270FC81C585F1400785D47 /* FETransitioningVC.m in Sources */,
 				950A3DA51C5F59CF009C40AA /* moveViewController.m in Sources */,
-				9586FA131C76AD5F00E49BA1 /* ChildrootViewConntroller.m in Sources */,
 				95A38D5B1C5F637F00F40111 /* CollectionViewCell.m in Sources */,
 				95A38D681C609DA400F40111 /* CircleSpreadVC2.m in Sources */,
 				9586FA4F1C76E44800E49BA1 /* MainViewController.m in Sources */,
@@ -636,10 +656,10 @@
 				954E4A861C3BB266002E2150 /* main.m in Sources */,
 				9586FA561C76E49F00E49BA1 /* Common.swift in Sources */,
 				9586FA5F1C7AAAB200E49BA1 /* EyeView.m in Sources */,
-				9586FA141C76AD5F00E49BA1 /* childVC1.m in Sources */,
 				9586FA5C1C7716AB00E49BA1 /* eyeViewController.m in Sources */,
 				9586FA541C76E48E00E49BA1 /* rightViewController.swift in Sources */,
 				95A38D6F1C715F4400F40111 /* CoreAnimationVC.m in Sources */,
+				9586FA681C80344100E49BA1 /* MyLayerDelegate.m in Sources */,
 				95A38D611C6095DC00F40111 /* CircleSpreadTransition.m in Sources */,
 				9586FA4E1C76E44800E49BA1 /* LeftViewController.m in Sources */,
 				9586FA511C76E44800E49BA1 /* ViewController1.m in Sources */,
@@ -647,12 +667,12 @@
 				95270FC31C57715600785D47 /* UIView+FE_Frame.m in Sources */,
 				95A38D791C72B9AF00F40111 /* WebJsVC.m in Sources */,
 				9586FA591C76F4CA00E49BA1 /* ShapeLayerViewController.swift in Sources */,
+				9586FA721C8564FC00E49BA1 /* LaunchViewController.m in Sources */,
 				956B4D7A1C58C872008726FB /* FE_PresentTransition.m in Sources */,
 				9586FA501C76E44800E49BA1 /* slideViewController.m in Sources */,
 				95A38D581C5F5D8900F40111 /* movePushedViewController.m in Sources */,
-				9586FA161C76AD5F00E49BA1 /* childVC3.m in Sources */,
-				9586FA151C76AD5F00E49BA1 /* childVC2.m in Sources */,
 				95A38D751C71B08D00F40111 /* FivePointerStarVC.m in Sources */,
+				9586FA961C87DE3000E49BA1 /* childVC1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,6 +812,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = note_oc/pch/PrefixHeader.pch;
 				INFOPLIST_FILE = note_oc/Info.plist;
@@ -799,6 +820,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fe.laboratory;
 				PRODUCT_NAME = SwiftBridging;
 				SWIFT_OBJC_BRIDGING_HEADER = note_oc/Swift_bridging.h;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -807,6 +829,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = note_oc/pch/PrefixHeader.pch;
 				INFOPLIST_FILE = note_oc/Info.plist;
@@ -814,6 +837,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fe.laboratory;
 				PRODUCT_NAME = SwiftBridging;
 				SWIFT_OBJC_BRIDGING_HEADER = note_oc/Swift_bridging.h;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -30,7 +30,7 @@ static  NSString *const kCollectionViewCell = @"CollectionCell";
     DLog("1ss1")
 }
 - (void)viewDidLoad {
-    
+    [super viewDidLoad];
     [self.view addSubview:self.collectionView];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(dismiss)];
     self.navigationItem.rightBarButtonItems = @[[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(changeLayout)]];

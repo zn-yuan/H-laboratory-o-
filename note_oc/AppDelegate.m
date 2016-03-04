@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LaunchViewController.h"
+#import "WebJsVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]init];
+    DLog(@"%@",NSStringFromCGRect([UIScreen mainScreen].bounds));
+    LaunchViewController *launchVC = [[LaunchViewController alloc]init];
+
+    self.window.rootViewController = launchVC;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

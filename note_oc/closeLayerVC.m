@@ -83,9 +83,10 @@
     CGContextSetStrokeColorWithColor(ctx, white); //start drawing the path;
     CGContextBeginPath(ctx);
     CGContextAddPath(ctx, path);
-    
+    CGPathRelease(path);
     CGContextSetLineWidth(ctx, 3.0);
     CGContextStrokePath(ctx);
+   
 
     
 }

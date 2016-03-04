@@ -7,36 +7,40 @@
 //
 
 #import "FivePointerStarVC.h"
+#import "MyLayerDelegate.h"
 
 @interface FivePointerStarVC ()
 
 #warning 内存管理问题
-@property (strong) __attribute__((NSObject)) CGMutablePathRef starPath;
+@property (assign,nonatomic)  CGMutablePathRef starPath;
 @property (nonatomic, strong) CALayer *drawLayer;
 @property (nonatomic, strong) CALayer *bgLayer;
+@property (nonatomic, strong) MyLayerDelegate *layerDelegate;
 
 @end
 
 @implementation FivePointerStarVC
 
-
 - (void)dealloc {
-    
-  
+    self.bgLayer.delegate = nil;
+    CGPathRelease(_starPath);
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.starPath  = CGPathCreateMutable();
+//    _layerDelegate = [[MyLayerDelegate alloc]initWithViewController:self];
     
-//    CFRelease(path);
-    CGPathMoveToPoint(self.starPath, NULL, 240.0, 280.0);
+    CGMutablePathRef path = CGPathCreateMutable();
+    _starPath  = path;
+
+    CGPathMoveToPoint(_starPath, NULL, 240.0, 280.0);
     
     _drawLayer = [CALayer layer];
 
     [_drawLayer setFrame:CGRectMake(50, 100, 10, 10)];
     _drawLayer.backgroundColor = [UIColor redColor].CGColor;
+    
     _bgLayer = [CALayer layer];
     [_bgLayer setFrame:self.view.layer.frame];
     
@@ -51,7 +55,6 @@
     [self.view addSubview:button];
 }
 
-
 - (void)action {
     CGMutablePathRef path = CGPathCreateMutable();
     CGPathMoveToPoint(path,NULL,240.0, 280.0);
@@ -60,15 +63,16 @@
     CGPathAddLineToPoint(path, NULL, 144.0, 210.0);
     CGPathAddLineToPoint(path, NULL, 298.0, 99.0);
     CGPathCloseSubpath(path);
-//    CFRelease(path);
+
     //创建关键帧动画实例
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     //关键帧动画定义为10秒，一共6帧，每一帧是10/（6-1）等与2秒
     [animation setDuration:10.0f];
     [animation setDelegate:self];
     [animation setPath:path];
-    
+     CGPathRelease(path);
     [self.drawLayer addAnimation:animation forKey:NULL];
+    
     [NSTimer scheduledTimerWithTimeInterval:2.0 target:self
                                    selector:@selector(legOne:) userInfo:nil
                                     repeats:NO];
@@ -82,47 +86,45 @@
                                     repeats:NO];
     [NSTimer scheduledTimerWithTimeInterval:10.0 target:self selector:@selector(legFive:) userInfo:nil
                                     repeats:NO];
-    
-    [self.bgLayer setDelegate:self];
+//
+  
+    self.bgLayer.name = @"sss";
+    self.bgLayer.delegate = self;
 }
 
 - (void)legOne:(id)sender {
-    CGPathAddLineToPoint(self.starPath, NULL, 181.0, 99.0);
+    CGPathAddLineToPoint(_starPath, NULL, 181.0, 99.0);
     [self.bgLayer setNeedsDisplay];
 }
 - (void)legTwo:(id)sender {
-    CGPathAddLineToPoint(self.starPath, NULL, 335.0, 210.0);
+    CGPathAddLineToPoint(_starPath, NULL, 335.0, 210.0);
     [self.bgLayer setNeedsDisplay];
 }
 - (void)legThree:(id)sender {
-    CGPathAddLineToPoint(self.starPath, NULL, 144.0, 210.0);
+    CGPathAddLineToPoint(_starPath, NULL, 144.0, 210.0);
     [self.bgLayer setNeedsDisplay];
 }
 - (void)legFour:(id)sender {
-    CGPathAddLineToPoint(self.starPath, NULL, 298.0, 99.0);
+    CGPathAddLineToPoint(_starPath, NULL, 298.0, 99.0);
     [self.bgLayer setNeedsDisplay];
 }
 - (void)legFive:(id)sender {
-    CGPathCloseSubpath(self.starPath);
+    CGPathCloseSubpath(_starPath);
     [self.bgLayer setNeedsDisplay];
+
 }
 
 - (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)context {
     
-//    
-//    if (layer != self.view.layer) {
-//        return;
-//    }
+    if(layer == _bgLayer){
+        CGColorRef white =[UIColor whiteColor].CGColor;
+        CGContextSetStrokeColorWithColor(context, white);
+        CGContextBeginPath(context);
+        CGContextAddPath(context, _starPath);
+        CGContextSetLineWidth(context, 3.0);
+        CGContextStrokePath(context);
+    }
     
-    CGColorRef white =[UIColor whiteColor].CGColor;
-    CGContextSetStrokeColorWithColor(context, white);
-//    CFRelease(white);
-    CGContextBeginPath(context);
-    CGContextAddPath(context, self.starPath);
-    CGContextSetLineWidth(context, 3.0);
-    CGContextStrokePath(context);
-//    CGColorRelease(white);
-//    CFGetRetainCount(white);
 }
 
 - (void)didReceiveMemoryWarning {

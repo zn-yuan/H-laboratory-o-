@@ -27,11 +27,19 @@ static NSString * const kCell = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.leftBarButtonItem =  [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(back)];
+    
     _dataSource = @[@"图表抖动效果实现－左上角小黑叉实习(层的使用)",@"五角星"];
     _subDataSource = @[@"closeLayerVC",@"FivePointerStarVC"];
     
     [self.view addSubview:self.tableView];
     
+}
+
+- (void)back{
+    [self dismissViewControllerAnimated:YES completion:^{
+        assert(1==1);
+    }];
 }
 
 

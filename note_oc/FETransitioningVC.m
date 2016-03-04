@@ -30,7 +30,7 @@
 }
 
 - (void)viewDidLoad {
-    
+    [super viewDidLoad];
     self.navigationItem.leftBarButtonItem =  [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(back)];
     
     _interactivePush = [FEPercentDrivenInteractive interactiveTransitionWithTransitionType:FEInteractiveTransitionTypePresent gestureDirectiopn:FEInteractiveTransitionGestureDirectionUp];

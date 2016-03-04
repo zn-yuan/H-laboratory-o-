@@ -15,6 +15,7 @@
 #import "slideViewController.h"
 #import "SwiftBridging-swift.h"
 #import "eyeViewController.h"
+#import "CocoTestVC.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -42,8 +43,8 @@
     
     UIDevice *dev = [UIDevice currentDevice];
     
-    _data = @[@"模态",@"navMove",@"circleSpread",@"shakeAnimation",@"WebJsVC",@"slideViewController", @"ShapeLayer",@"eyeViewController"];
-    _subData = @[@"",@"moveViewController",@"CircleSpreadVC1",@"CoreAnimationVC",@"WebJsVC",@"slideViewController",@"ShapeLayerViewController",@"eyeViewController"];
+    _data = @[@"模态",@"navMove",@"circleSpread",@"shakeAnimation",@"WebJsVC",@"slideViewController", @"ShapeLayer",@"eyeViewController",@"CocoTestVC"];
+    _subData = @[@"",@"moveViewController",@"CircleSpreadVC1",@"CoreAnimationVC",@"WebJsVC",@"slideViewController",@"ShapeLayerViewController",@"eyeViewController",@"CocoTestVC"];
     NSLog(@"%@",dev.identifierForVendor);
     DLog(@"%@",dev.systemVersion);
     DLog(@"%@",dev.localizedModel);
