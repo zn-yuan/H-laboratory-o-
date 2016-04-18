@@ -22,7 +22,7 @@
 //    NSURL *url = [[NSBundle mainBundle]URLForResource:@"Launch" withExtension:@"html" subdirectory:@"webSource"];
 //    DLog(@"url:%@",url.absoluteString);
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Launch" ofType:@"html" inDirectory:@"webSource"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Launch" ofType:@"html" ];
     
 //    DLog(@"%@",path);
     NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL fileURLWithPath:path]];

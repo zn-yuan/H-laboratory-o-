@@ -16,6 +16,10 @@
 #import "SwiftBridging-swift.h"
 #import "eyeViewController.h"
 #import "CocoTestVC.h"
+#import "TestThreadViewController.h"
+#import "NetTestViewController.h"
+#import "CollectionView.h"
+//#import "RuntimeViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -27,6 +31,10 @@
 
 @implementation ViewController
 
+
+- (void)dealloc {
+    DLog(@"ssss");
+}
 
 - (void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
@@ -43,14 +51,15 @@
     
     UIDevice *dev = [UIDevice currentDevice];
     
-    _data = @[@"模态",@"navMove",@"circleSpread",@"shakeAnimation",@"WebJsVC",@"slideViewController", @"ShapeLayer",@"eyeViewController",@"CocoTestVC"];
-    _subData = @[@"",@"moveViewController",@"CircleSpreadVC1",@"CoreAnimationVC",@"WebJsVC",@"slideViewController",@"ShapeLayerViewController",@"eyeViewController",@"CocoTestVC"];
+    _data = @[@"模态",@"navMove",@"circleSpread",@"shakeAnimation",@"WebJsVC",@"slideViewController", @"ShapeLayer",@"eyeViewController",@"CocoTestVC",@"TestThreadViewController",@"NetTestViewController",@"ServiceZoneViewController",@"CollectionView",@"RuntimeViewController"];
+    _subData = @[@"",@"moveViewController",@"CircleSpreadVC1",@"CoreAnimationVC",@"WebJsVC",@"slideViewController",@"ShapeLayerViewController",@"eyeViewController",@"CocoTestVC",@"TestThreadViewController",@"NetTestViewController",@"ServiceZoneViewController",@"CollectionView",@"RuntimeViewController"];
     NSLog(@"%@",dev.identifierForVendor);
     DLog(@"%@",dev.systemVersion);
     DLog(@"%@",dev.localizedModel);
 
     DLog(@"name %@",dev.name);
     DLog(@"proximityState %d",dev.proximityState);
+
     [self.view addSubview:self.tableView];
     
     // Do any additional setup after loading the view, typically from a nib.
@@ -97,10 +106,15 @@
         
         if ([_subData[indexPath.row] isEqualToString:@"ShapeLayerViewController"]) {
             nextVC = [[ShapeLayerViewController alloc] init];
-        } else {
+        } else if([_subData[indexPath.row] isEqualToString:@"ServiceZoneViewController"]){
+            nextVC = [[ServiceZoneViewController alloc] init];
+        }
+         else
+        {
             nextVC = [[NSClassFromString(_subData[indexPath.row]) alloc]init];
 
         }
+        
     }
 
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:nextVC];

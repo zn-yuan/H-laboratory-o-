@@ -12,7 +12,7 @@ class ShapeLayerViewController: UIViewController {
     
     override func viewDidLoad() {
         
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "dismiss", style: .Plain, target: self, action: "dismiss")
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "dismiss", style: .Plain, target: self, action: #selector(ShapeLayerViewController.dismiss))
         
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()

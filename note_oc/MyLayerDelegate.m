@@ -7,7 +7,8 @@
 //
 
 #import "MyLayerDelegate.h"
-#import <objc/objc-api.h>
+//#import <objc/objc-api.h>
+#import <objc/objc-runtime.h>
 
 @interface MyLayerDelegate ()
 @property (nonatomic, assign) UIView *view;

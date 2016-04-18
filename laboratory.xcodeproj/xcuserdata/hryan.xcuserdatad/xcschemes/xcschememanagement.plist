@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>laboratory copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>note_oc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>954E4AA41C3BB266002E2150</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>958EAA1D1CB636B600779668</key>
 		<dict>
 			<key>primary</key>
 			<true/>

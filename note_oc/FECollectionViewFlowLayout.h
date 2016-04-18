@@ -1,5 +1,5 @@
 //
-//  CollectionViewCell.h
+//  FECollectionViewFlowLayout.h
 //  laboratory
 //
 //  Created by hryan on 16/3/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CollectionViewCell : UICollectionViewCell
-
-@property (nonatomic)UIImageView *imageView;
+@interface FECollectionViewFlowLayout : UICollectionViewFlowLayout
 
 @end

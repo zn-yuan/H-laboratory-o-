@@ -12,7 +12,7 @@
 
 @end
 
-@interface Person : NSObject
+@interface People : NSObject
 
 @property (nonatomic) NSString *name;
 

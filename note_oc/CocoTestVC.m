@@ -106,9 +106,9 @@
 
 - (void)Array {
     
-    Person *person1 = [[Person alloc]init];
-    Person *person2 = [[Person alloc]init];
-    Person *person3 = [[Person alloc] init];
+    People *person1 = [[People alloc]init];
+    People *person2 = [[People alloc]init];
+    People *person3 = [[People alloc] init];
     
     person1.name = @"js";
     person2.name = @"oc";
@@ -226,9 +226,9 @@ void test4(){
     
     
     //方法2,自己定义比较器
-    Person *person1=[Person personWithName:@"Kenshin"];
-    Person *person2=[Person personWithName:@"Kaoru"];
-    Person *person3=[Person personWithName:@"Rosa"];
+    People *person1=[People personWithName:@"Kenshin"];
+    People *person2=[People personWithName:@"Kaoru"];
+    People *person3=[People personWithName:@"Rosa"];
     NSArray *array3=[NSArray arrayWithObjects:person1,person2,person3, nil];
     NSArray *array4=[array3 sortedArrayUsingSelector:@selector(show:)];
     NSLog(@"%@",array4);
@@ -242,7 +242,7 @@ void test4(){
     
     
     //方法3使用代码块
-    NSArray *array5=[array3 sortedArrayUsingComparator:^NSComparisonResult(Person *obj1, Person *obj2) {
+    NSArray *array5=[array3 sortedArrayUsingComparator:^NSComparisonResult(People *obj1, People *obj2) {
         return [obj2.name compare:obj1.name];//降序
     }];
     NSLog(@"%@",array5);
@@ -256,10 +256,10 @@ void test4(){
     
     
     //方法4 通过描述器定义排序规则
-    Person *person4=[Person personWithName:@"Jack"];
-    Person *person5=[Person personWithName:@"Jerry"];
-    Person *person6=[Person personWithName:@"Tom"];
-    Person *person7=[Person personWithName:@"Terry"];
+    People *person4=[People personWithName:@"Jack"];
+    People *person5=[People personWithName:@"Jerry"];
+    People *person6=[People personWithName:@"Tom"];
+    People *person7=[People personWithName:@"Terry"];
     NSArray *array6=[NSArray arrayWithObjects:person4,person5,person6,person7, nil];
     //定义一个排序描述
     NSSortDescriptor *personName=[NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
@@ -281,13 +281,13 @@ void test4(){
 
 @end
 
-@interface Person ()
+@interface People ()
 
 @property (nonatomic) BOOL sex;
 
 @end
 
-@implementation Person
+@implementation People
 
 - (NSString *)description{
     return  self.name;
@@ -306,7 +306,7 @@ void test4(){
     return self;
 }
 
-- (void)show:(Person*)ss {
+- (void)show:(People*)ss {
     DLog(@"%@",ss.name);
     DLog(@"%@",self.name);
 

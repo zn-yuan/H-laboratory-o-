@@ -86,9 +86,6 @@
     CGPathRelease(path);
     CGContextSetLineWidth(ctx, 3.0);
     CGContextStrokePath(ctx);
-   
-
-    
 }
 
 - (CAAnimation *)shakeAnimation {
