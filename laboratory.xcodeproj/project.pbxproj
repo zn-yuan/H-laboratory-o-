@@ -35,6 +35,8 @@
 		957DF56F1CB7966300A1BBBB /* Launch.html in Resources */ = {isa = PBXBuildFile; fileRef = 957DF56B1CB7966300A1BBBB /* Launch.html */; };
 		957DF5751CB796D400A1BBBB /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 957DF5741CB796D400A1BBBB /* Man.m */; };
 		957DF5781CB7998F00A1BBBB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957DF5771CB7998F00A1BBBB /* BaseViewController.m */; };
+		957DF57B1CC487C500A1BBBB /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 957DF57A1CC487C500A1BBBB /* Teacher.m */; };
+		957DF57E1CC487D200A1BBBB /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 957DF57D1CC487D200A1BBBB /* Doctor.m */; };
 		9586FA4E1C76E44800E49BA1 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA451C76E44800E49BA1 /* LeftViewController.m */; };
 		9586FA4F1C76E44800E49BA1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA471C76E44800E49BA1 /* MainViewController.m */; };
 		9586FA501C76E44800E49BA1 /* slideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9586FA491C76E44800E49BA1 /* slideViewController.m */; };
@@ -147,6 +149,10 @@
 		957DF5741CB796D400A1BBBB /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
 		957DF5761CB7998F00A1BBBB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		957DF5771CB7998F00A1BBBB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		957DF5791CC487C500A1BBBB /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		957DF57A1CC487C500A1BBBB /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		957DF57C1CC487D200A1BBBB /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		957DF57D1CC487D200A1BBBB /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		9586FA411C76B5C200E49BA1 /* Swift_bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift_bridging.h; sourceTree = "<group>"; };
 		9586FA441C76E44800E49BA1 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = note_oc/LeftViewController.h; sourceTree = SOURCE_ROOT; };
 		9586FA451C76E44800E49BA1 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = note_oc/LeftViewController.m; sourceTree = SOURCE_ROOT; };
@@ -571,6 +577,10 @@
 				957DF5631CB7954700A1BBBB /* RuntimeViewController.m */,
 				957DF5731CB796D400A1BBBB /* Man.h */,
 				957DF5741CB796D400A1BBBB /* Man.m */,
+				957DF5791CC487C500A1BBBB /* Teacher.h */,
+				957DF57A1CC487C500A1BBBB /* Teacher.m */,
+				957DF57C1CC487D200A1BBBB /* Doctor.h */,
+				957DF57D1CC487D200A1BBBB /* Doctor.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -807,6 +817,7 @@
 				9586FAAB1C8D877F00E49BA1 /* Connection.m in Sources */,
 				95A38D681C609DA400F40111 /* CircleSpreadVC2.m in Sources */,
 				9586FA4F1C76E44800E49BA1 /* MainViewController.m in Sources */,
+				957DF57E1CC487D200A1BBBB /* Doctor.m in Sources */,
 				95270FCB1C585F4D00785D47 /* FETransitioningVC2.m in Sources */,
 				95A38D721C7176BA00F40111 /* closeLayerVC.m in Sources */,
 				9522082B1C910A0000485F01 /* CollectionView.m in Sources */,
@@ -833,6 +844,7 @@
 				9586FA721C8564FC00E49BA1 /* LaunchViewController.m in Sources */,
 				9586FAA61C8D860200E49BA1 /* Server.m in Sources */,
 				956B4D7A1C58C872008726FB /* FE_PresentTransition.m in Sources */,
+				957DF57B1CC487C500A1BBBB /* Teacher.m in Sources */,
 				9586FA501C76E44800E49BA1 /* slideViewController.m in Sources */,
 				95A38D581C5F5D8900F40111 /* movePushedViewController.m in Sources */,
 				950021D81C92641F00BCF5F4 /* CollectionViewCell.m in Sources */,

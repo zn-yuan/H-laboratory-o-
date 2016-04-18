@@ -9,6 +9,7 @@
 #import "RuntimeViewController.h"
 #import <objc/objc-runtime.h>
 #import "Man.h"
+#import "Teacher.h"
 
 @interface RuntimeViewController ()
 
@@ -18,6 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    [self runtime1];
+    [self runtime2];
+    // Do any additional setup after loading the view.
+}
+
+- (void)runtime1{
     Man *p = [[Man alloc] init];
     p.name = @"lili";
     size_t size = class_getInstanceSize(p.class);
@@ -34,15 +41,31 @@
     for (NSString *key  in p.allPropertyNameAndValues.allKeys) {
         NSLog(@"key:%@,value=%@",key,p.allPropertyNameAndValues[key]);
     }
-//    [p allMethods];
+    //    [p allMethods];
     
     
     objc_msgSend(p, @selector(setName:),@"job");
     DLog(@"%@",p.name)
     
-//    objc_getClass(<#const char *name#>)
-    // Do any additional setup after loading the view.
+    //    objc_getClass(<#const char *name#>)
 }
+
+#pragma mark:----------快速消息转发
+#pragma mark
+- (void)runtime2{
+    Teacher *teacher = [[Teacher alloc]init];
+    DLog(@"1")
+    [teacher operate];
+    DLog(@"2")
+    [teacher operate2];
+    DLog(@"3")
+    [teacher operate3];
+}
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
